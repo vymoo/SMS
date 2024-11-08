@@ -68,3 +68,9 @@ l9:	ADDS	X1, X3, X5	// Lower order 64-bits
 
 .data
 helloworld:	.ascii "Hello World!"
+ [analyzers.meta]
+  plugins = ["react"]
+
+[[transformers]]
+name = "prettier"
+enabled = true
